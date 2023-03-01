@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import './App.css';
 import Expenses from './component/expenses/Expenses';
 import NewExpense from './component/new_file/NewExpense';
+import Counter from './component/Counter';
 const DUMMY_DATA = [
   {
     id: 'e1',
@@ -37,6 +38,7 @@ function App() {
       </div>
         
   );
+  // return(<Counter/>)
 }
 
 export default App;
